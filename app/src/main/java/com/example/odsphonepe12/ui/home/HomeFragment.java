@@ -65,12 +65,16 @@ public class HomeFragment extends Fragment {
         root.findViewById(R.id.seeAll).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Fragment fragment = new RechargeFragment();
+              Fragment fragment = new RechargeFragment();
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.containerid,fragment);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
+
+/*
+                MainActivity.fragmentManager.beginTransaction().replace(R.id.containerid,new RechargeFragment(),null).addToBackStack(null).commit();
+*/
 
             }
         });

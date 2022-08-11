@@ -6,7 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".ui.home.RechargeFragment">
-    //Raju
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/my_pager1"
         app:layout_constraintHorizontal_bias="0.0"
@@ -136,7 +135,7 @@
                             android:layout_margin="5dp"
                             android:padding="10dp"
                             android:background="#A16E49B8"
-                            android:src="@drawable/cabletv"/>
+                            android:src="@drawable/cable1234"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
